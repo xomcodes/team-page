@@ -54,6 +54,74 @@ width:  50%;
         float: left;
         /* margin-left: 10px; */
         
-       
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }  
+    
+    
+    .container{
+        width: 80%;
+        margin: 0 auto;
+    }
 
-       
+    .flex{
+        display: flex;
+    }
+
+
+
+    #page-section {
+        max-height: 80vh;
+    }
+
+
+
+
+    #page-section .left-text{
+width: 50%;
+    }
+
+    #page-section .right-text{
+        width: 50%;
+            }   
+
+            #page-section .right-text p{
+                width: 350px;
+                    }
+                    
+                   
+                 
+
+
+
+                    img{
+                       width: 50%; 
+                       float: left;
+                       display: block;
+                       width: 30%;
+                       height: 30%;
+                       margin: 10px;
+                       height: 60%;
+                    
+                    }
+
+
+
+                    /* .teams{
+                        height: 50px;
+                        width: 50%;
+                        align-content: center;
+                        justify-content: center;
+                        text-align: center;
+                    } */
+ 
+                    /* .float{
+                   float: left;
+                   display: block;
+                   width: 30%;
+                   height: 30%;
+                   margin: 10px;
+                 
+                    }  */
