@@ -32,12 +32,32 @@
           /* margin-left: 100px; */
       }
 
+      #page-section .left-text h2 {
+        font-family: 'PT Serif';
+        font-weight: 700;
+        font-size: 37px;
+        margin-top: 15px;
+    }
+
+
+
       #page-section .right-text {
           width: 50%;
       }
 
+      #page-section .right-text h3{
+        margin-top: 15px;
+        margin-bottom: 10px;
+        font-family: 'Poppins';
+        font-weight: 600;
+        font-size: 25px;
+    }
+
       #page-section .right-text p {
-          width: 350px;
+          width: 380px;
+          font-size: 18px;
+          font-family:"Poppins";
+
 
       }
 
@@ -84,24 +104,161 @@
 
 
       .team-image h2{
-        padding: 0.2rem;
-        font-size: 0.8rem
+        /* padding: 0.2rem; */
+         padding: 10px; 
+        /* font-size: 0.8rem; */
+        font-size: 25px;
+        font-family:"Poppins";
+        font-weight: 600;
 
       }
 
 
- .team-image h4{
+ .team-image h5{
     transform: rotate(90deg);
     width: 100%;
     position: absolute;
-    /* font-size: 0.5rem */
+    /* font-size: 0.5rem; */
     right: -52%;
     top: 27%;
-    font-weight: lighter;
+    /* font-weight: lighter; */
+    font-family: 'PT Serif';
+    font-weight: 400;
+    
  }
-
 
  .second,.fifth{
     margin-top: 4rem;
 
  }
+
+
+
+ 
+ /* .second,.fifth, .sixth{
+    margin-top: 4rem;
+
+ } */
+
+  .fifth h5{
+    top: 30%;
+ }
+
+ .second h5{
+    top: 30%;
+    
+ }
+
+
+ .footer{
+    text-align: center;
+    margin-right: 60px;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    font-family:"Montserrat";
+    font-weight:700;
+   font-size:14px;
+   color: #A9A9A9;
+
+ }
+
+
+ /* Mobile View */
+
+
+
+ @media (max-width: 426px) {
+    .flex{
+        flex-direction:column;
+       }
+
+       #page-section .left-text {
+        width: 100%;
+       
+    }
+
+    #page-section .right-text {
+        width: 100%;
+    }
+
+   
+    
+
+    #page-section .right-text p {
+        width: 360px;
+        /* font-size: 18px; */
+        /* font-family:"Poppins"; */
+        margin-bottom: 30px;
+
+
+    }
+
+
+    .team-image h2{
+        
+        font-size: 14px; 
+      }
+    
+
+      .team-image h5{
+        
+        font-size: 10px;  
+     }
+
+
+     /* .fifth,.fourth,.second{
+        margin-top: 4rem;
+    
+     } */
+
+ 
+     .sixth,.fourth,.second{
+        margin-top: 4rem;
+    
+     } 
+
+.sixth{
+margin-top: 50px;
+}
+
+
+/* .team h5{
+    top: 23%;  
+} */
+
+
+.fifth h5{
+    top: 20%;
+ }
+
+
+
+ .third h5{
+    top: 20%;
+    
+ }
+
+
+ .first h5{
+    top: 20%;
+   
+ }
+
+ .second h5{
+    top: 25%;
+    
+ }
+
+
+ .footer{
+ text-align: center;
+ font-size: 14px;
+
+ }
+
+
+
+}
+
+
+
